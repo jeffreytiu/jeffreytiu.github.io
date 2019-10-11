@@ -45,9 +45,6 @@ body {
 .nav-item a:hover::after {
     width: 100%;
 }
-#mobileCarousel{
-  display:none;
-}
 }
 
 @media (max-width: 767px) {
@@ -59,9 +56,6 @@ body {
     }
     .navbar-collapse a{
         text-align: center;
-    }
-    #myCarousel{
-      display:none;
     }
     #mobileCarousel{
       display:relative;
