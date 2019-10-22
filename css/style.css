@@ -21,7 +21,6 @@ a:hover {
 
 #main-header {
   background-image: url("/images/mainbg.jpg");
-  background-color: #202020;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,5 +102,14 @@ a:hover {
 
 #copyright a {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #main-header {
+    background-attachment: scroll;
+  }
+  #about-me {
+    background-attachment: scroll;
+  }
 }
 /*# sourceMappingURL=style.css.map */
