@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #202020;
+  color: #ffffff;
+}
+
+a {
+  color: #555555;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+a:hover {
+  color: #ffffff;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+#main-header {
+  background-image: url("/images/mainbg.jpg");
+  background-color: #202020;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#main-header .navbar .nav-link {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 0 1.5rem;
+}
+
+#main-header .navbar .navbar-brand {
+  color: #ffffff;
+}
+
+#main-header #welcome-div {
+  min-height: 30rem;
+}
+
+#main-header h1 {
+  text-shadow: 2px 2px 3px #333333;
+}
+
+#main-header p {
+  text-shadow: 2px 2px 3px #333333;
+}
+
+#main-header .navbar.scrolled {
+  background: #333333;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+#project-works .my-works a {
+  font-size: 2rem;
+}
+
+#about-me {
+  background-image: url("/images/secbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about-me p {
+  line-height: 1.8;
+}
+
+#about-me a {
+  color: #aaaaaa;
+}
+
+.darken-pseudo {
+  position: relative;
+}
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.darken-with-text .row {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#copyright {
+  background-color: #333333;
+}
+
+#copyright a {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,108 @@
+$AlphaColor: #202020;
+$BetaColor: #ffffff;
+$CharlieColor: #333333;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: $AlphaColor;
+    color: $BetaColor;
+}
+
+a {
+        color: #555555;
+        transition-duration: 200ms;
+    }
+    a:hover {
+        color: $BetaColor;
+        transition-duration: 200ms;
+    }
+
+#main-header {
+    background-image: url("/images/mainbg.jpg");
+    background-color: $AlphaColor;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    .navbar .nav-link{
+        color: $BetaColor;
+        font-size: 1.2em;
+        padding: 0 1.5rem;
+    }
+    .navbar .navbar-brand{
+        color: $BetaColor;
+    }
+    
+    #welcome-div{
+        min-height: 30rem;
+    }
+
+    h1 {
+        text-shadow: 2px 2px 3px $CharlieColor;
+    }
+    p {
+        text-shadow: 2px 2px 3px $CharlieColor;
+    }
+
+    .navbar.scrolled {
+        background: $CharlieColor;
+        transition: background 300ms;
+    }
+}
+
+#project-works .my-works{
+
+
+    a {
+        font-size: 2rem;
+    }
+}
+
+#about-me {
+    background-image: url("/images/secbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        line-height: 1.8;
+    }
+
+    a {
+        color: #aaaaaa;
+    }
+}
+
+.darken-pseudo {
+    position: relative;
+  }  
+
+.darken-pseudo:after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: block;
+background-color: rgba(0, 0, 0, 0.75);
+}
+.darken-with-text .row{
+margin: 0;
+position: relative;
+z-index: 1;
+}
+  
+
+#copyright {
+    background-color: $CharlieColor;
+
+    a {
+        font-size: 2rem;
+    }
+}
