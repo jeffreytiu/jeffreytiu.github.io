@@ -105,3 +105,12 @@ z-index: 1;
         font-size: 2rem;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    #main-header {
+        background-attachment: scroll;
+    }
+    #about-me {
+        background-attachment: scroll;
+    }
+}
