@@ -111,5 +111,8 @@ a:hover {
   #about-me {
     background-attachment: scroll;
   }
+  #main-header .navbar .nav-link {
+    padding: .5rem 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
