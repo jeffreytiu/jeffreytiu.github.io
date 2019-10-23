@@ -14,6 +14,6 @@ $(document).ready(function(){
 $(function () {
     $(document).scroll(function(){
         var $nav = $("#mainNavBar");
-        $nav.toggleClass("fixed-top scrolled", $(this).scrollTop() > $nav.height());
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     })
 })
