@@ -87,10 +87,12 @@ a {
 
     p {
         line-height: 1.8;
+        font-size: 1.1em;
     }
 
     a {
-        color: #aaaaaa;
+        color: $BetaColor;
+        text-decoration: underline;
     }
 }
 

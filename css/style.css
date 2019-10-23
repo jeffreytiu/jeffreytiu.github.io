@@ -90,10 +90,12 @@ a:hover {
 
 #about-me p {
   line-height: 1.8;
+  font-size: 1.1em;
 }
 
 #about-me a {
-  color: #aaaaaa;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .darken-pseudo {
