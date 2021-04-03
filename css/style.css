@@ -10,13 +10,13 @@ body {
 a {
   color: #555555;
   -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
 }
 
 a:hover {
   color: #ffffff;
   -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
 }
 
 #main-header {
@@ -66,6 +66,10 @@ a:hover {
   font-size: 2rem;
 }
 
+#project-works .my-works .img-round {
+  border-radius: 8px;
+}
+
 #about-me {
   background-image: url("/images/secbg.jpg");
   background-position: center;
@@ -89,7 +93,7 @@ a:hover {
 }
 
 .darken-pseudo:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -115,13 +119,13 @@ a:hover {
 
 @media only screen and (min-width: 992px) {
   .nav-item a::after {
-    content: '';
+    content: "";
     display: block;
     width: 0;
     height: 2px;
     background: #ffffff;
-    -webkit-transition: width .3s;
-    transition: width .3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
   }
   .nav-item a:hover::after {
     width: 100%;
